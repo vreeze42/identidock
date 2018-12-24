@@ -1,2 +1,2 @@
-docker rm $(docker stop $(docker ps -q))
+docker rm $(docker stop $(docker ps -aq))
 
